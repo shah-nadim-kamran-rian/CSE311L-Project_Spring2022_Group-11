@@ -1,1 +1,1 @@
-# CSE311L-Project_Spring2022_Group-11
+This is the gitHub repository of group-11(Members:Refah Tasnia,ID:2013416042, Shah Nadim Kamran Rian,ID:2012780042) for the assigned web-based project for the course CSE311L:Database Systems Lab, semester: Spring 2022,  North South University, ECE dept.
