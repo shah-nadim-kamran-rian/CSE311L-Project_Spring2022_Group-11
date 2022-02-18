@@ -1,1 +1,141 @@
-.
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[greek,english]{babel}
+\usepackage{alphabeta} 
+
+\usepackage[pdftex]{graphicx}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+\linespread{1.06}
+\setlength{\parskip}{8pt plus2pt minus2pt}
+
+\widowpenalty 10000
+\clubpenalty 10000
+
+\newcommand{\eat}[1]{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\usepackage[official]{eurosym}
+\usepackage{enumitem}
+\setlist{nolistsep,noitemsep}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cite}
+\usepackage{lipsum}
+
+
+\begin{document}
+
+%===========================================================
+\begin{titlepage}
+\begin{center}
+
+% Top 
+\includegraphics[width=0.38\textwidth]{nsu.png}~\\[2cm]
+{ \huge
+\textbf{North South University}
+\\
+}
+{\Large
+\textsc{Department of Electrical and Computer Engineering}
+}
+% Title
+\HRule \\[0.4cm]
+{ \large
+  PROJECT PROPOSAL\\[0.4cm]
+  \Huge
+  \textbf{\emph{'Tuition-seeking website'}}\\[0.4cm]
+}
+\HRule \\[1.5cm]
+{\Large
+\textbf{CSE311L:DATABASE SYSTEMS LAB}
+\\
+\textsc{Semester:Spring 2022}
+}
+
+% Author
+{\large 
+\emph{Course Faculty:}\\ Nadeem Ahmed (Nda)\\
+}
+{ \large
+\emph{Student Names and ID:} \hfill \emph{Lab instructor:}\\[0.1cm]       
+Refah Tasnia, 2013416042 \hfill Nazmul Alam Dipto\\[0.1cm]
+Shah Nadim Kamran Rian, 2012780042 \hfill \break
+}
+{\large 
+\\
+\emph{Submission date:}18th February, 2022
+}
+\vfill
+
+ 
+\end{center}
+\end{titlepage}
+
+
+\newpage
+
+
+
+\setcounter{page}{1}
+
+%===========================================================
+%===========================================================
+\section{Introduction}\label{sec:intro}
+
+In Bangladesh, we see many advertisements labelled 'Need Tutors' and 'Need students' roaming around in places such as wall posters in the neighbourhood, Facebook posts, or just pop up during conversations in our everyday lives- all of which are unorganized ways of seeking tuition and students. This tuition-seeking website will act as an organized platform which brings both tuition seekers and providers in one place, who can get their perfect 'tuition match' according to their  preferred locations. The users can rate tuition providers according to their experience and the tutors can update their availability status.
+
+
+\section{Objective}\label{sec:lit-rev}
+
+1)Providing an easy-to-use platform without the hassle of conventional methods for seeking and providing tuition
+2)Organizing the user's details by categorizing the data according to location for better accessibility
+3)Notifying tutors when a student has been found 
+4)Notifying students if a teacher becomes available for a location that did not have any available teacher
+5)Tutors can be rated by students for a better user experience
+
+\section{Target Customers/users:}\label{sec:meth}
+
+1)Tuition seekers- students who want private tuition can select the location where they want to study and find a list of available tutors for their desired subjects
+2)Tuition providers- tutors willing to study certain subjects can select the location(s) where they can teach and their profile details will provide the subjects their qualifications and they subjects they will teach
+
+
+\section{Value proposition}\label{sec:res}
+The conventional methoda for searching tuition give rise to problems such as a communication gap between the service provider and receiver, e.g. losing details of the tuition, or the tuition seeking post existing but getting expired.
+Also, many seekers even remain unaware of the opportunities right around the corner. This website will diminish these problems and ensure an efficient way for teachers and students to interact and improve quality of education. The time lag of searching for tutors or waiting for tutors who are actually unavailable because of the website's feature 
+that show the availability status. Hence, the website is time-saving and acts as a medium of improving access to quality education in society.
+
+
+
+
+\section{Web Application Feature and description}\label{sec:web}
+The web page will open with the view for both tuition seekers and providers and there will be options to select which category the user falls under. The student option leads to selecting the locations where they are searching for tutors. The tutor option leads to creating a tutor account or login for existing tutor accounts.\\
+The teacher and students can also directly log into or create an account by the options on the top right corner of the homepage of the web page.
+
+Once a student has created an account:
+- their preferred location(s) can be listed\\
+- the subjects they need tutoring in can be listed\\
+- they can save their preferred tutor info \\
+- they can put a "tutor wanted" post\\
+Once a tutor has created an account:\\
+- they can provide their details such as subjects willing to teach, their location, their qualifications,etc.\\
+- they can enlist their names under preferred locations\\
+- they can put a post for providing tuitions\\
+
+\section{Tools and Resources}\label{sec:res}
+HTML\\
+Javascript\\
+MySQL\\
+PHP\\
+Web server\\
+API \\
+\section{Challenges}\label{sec:tandr}
+The main challenge here is motoring the data to ensure fairness and avoid hassle for users. Tutor ratings would need to be verified, and the availability status of tutors would need monitoring. Also, the safety of students under the tutors supervision
+would need to be ensured so a background check for tutors mean that their national ID cards would need to be provided. The user interface needs to be simple even if a lot of tutor and student data, along with locations are involved. Finally, it may need to be ensure that the tutors 
+do not face hassle from the student end.
+%===========================================================
+%===========================================================
+
+
+\end{document} 
+
