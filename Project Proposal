@@ -86,22 +86,22 @@ Shah Nadim Kamran Rian, 2012780042 \hfill \break
 In Bangladesh, we see many advertisements labelled 'Need Tutors' and 'Need students' roaming around in places such as wall posters in the neighbourhood, Facebook posts, or just pop up during conversations in our everyday lives- all of which are unorganized ways of seeking tuition and students. This tuition-seeking website will act as an organized platform which brings both tuition seekers and providers in one place, who can get their perfect 'tuition match' according to their  preferred locations. The users can rate tuition providers according to their experience and the tutors can update their availability status.
 
 
-\section{Objective}\label{sec:lit-rev}
+\section{Objectives}\label{sec:objectives}
 
-1)Providing an easy-to-use platform without the hassle of conventional methods for seeking and providing tuition
-2)Organizing the user's details by categorizing the data according to location for better accessibility
-3)Notifying tutors when a student has been found 
-4)Notifying students if a teacher becomes available for a location that did not have any available teacher
-5)Tutors can be rated by students for a better user experience
+1)Providing an easy-to-use platform without the hassle of conventional methods for seeking and providing tuition\\
+2)Organizing the user's details by categorizing the data according to location for better accessibility\\
+3)Notifying tutors when a student has been found\\ 
+4)Notifying students if a teacher becomes available for a location that did not have any available teacher\\
+5)Tutors can be rated by students for a better user experience\\
 
-\section{Target Customers/users:}\label{sec:meth}
+\section{Target Customers/users:}\label{sec:targetuser}
 
-1)Tuition seekers- students who want private tuition can select the location where they want to study and find a list of available tutors for their desired subjects
+1)Tuition seekers- students who want private tuition can select the location where they want to study and find a list of available tutors for their desired subjects\\
 2)Tuition providers- tutors willing to study certain subjects can select the location(s) where they can teach and their profile details will provide the subjects their qualifications and they subjects they will teach
 
 
-\section{Value proposition}\label{sec:res}
-The conventional methoda for searching tuition give rise to problems such as a communication gap between the service provider and receiver, e.g. losing details of the tuition, or the tuition seeking post existing but getting expired.
+\section{Value proposition}\label{sec:valueprop}
+The conventional methods for searching tuition give rise to problems such as a communication gap between the service provider and receiver, e.g. losing details of the tuition, or the tuition seeking post existing but getting expired.
 Also, many seekers even remain unaware of the opportunities right around the corner. This website will diminish these problems and ensure an efficient way for teachers and students to interact and improve quality of education. The time lag of searching for tutors or waiting for tutors who are actually unavailable because of the website's feature 
 that show the availability status. Hence, the website is time-saving and acts as a medium of improving access to quality education in society.
 
@@ -120,7 +120,7 @@ Once a student has created an account:
 Once a tutor has created an account:\\
 - they can provide their details such as subjects willing to teach, their location, their qualifications,etc.\\
 - they can enlist their names under preferred locations\\
-- they can put a post for providing tuitions\\
+- they can put a post for providing tuitions
 
 \section{Tools and Resources}\label{sec:res}
 HTML\\
@@ -129,7 +129,7 @@ MySQL\\
 PHP\\
 Web server\\
 API \\
-\section{Challenges}\label{sec:tandr}
+\section{Challenges}\label{sec:challenges}
 The main challenge here is motoring the data to ensure fairness and avoid hassle for users. Tutor ratings would need to be verified, and the availability status of tutors would need monitoring. Also, the safety of students under the tutors supervision
 would need to be ensured so a background check for tutors mean that their national ID cards would need to be provided. The user interface needs to be simple even if a lot of tutor and student data, along with locations are involved. Finally, it may need to be ensure that the tutors 
 do not face hassle from the student end.
@@ -138,4 +138,3 @@ do not face hassle from the student end.
 
 
 \end{document} 
-
